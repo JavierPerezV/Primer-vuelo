@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #AD8B73; 
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 20px;
+    background-image: url("../assets/1.png");
+    background-repeat: repeat;
+    background-size: 200px;
+}
+
+section {
+    padding:10px;
+    width: 80%;
+    margin: auto;
+    background-color: #CEAB93;
+    align-content: center;
+    margin-bottom: 50px;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+}
+.inicio button{
+    border: none;
+    background-color: #FFF89A; 
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.titulos{
+    color: #FFF89A;
+}
+
+.cuadricula{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+    padding: 5px;
+}
+.cuadricula div{
+    background-color: white;
+    padding: 5px;
+}
+.ordena form{
+    width: 40%;
+    margin: auto;
+}
+
+
+.tabla{
+    width: 40%;
+    margin: auto;
+}
+
+.regresar{
+    width: 50px;
+    margin:auto;
+}
+
+/*
+Colores
+2C2E43
+595260
+B2B1B9
+FFD523
+*/
+
+
+
